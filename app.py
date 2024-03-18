@@ -1,13 +1,7 @@
-from flask import Flask, render_template
+from routes import app 
 
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('inicio.html')
-
-if __name__ == "__main__":
+if __name__ == '__main__':
+    # Ejecutamos la aplicación en modo debug
     app.run(debug=True)
     
-app.static_folder = 'static'  # Establece la carpeta estática
-
+app.static_folder = 'static'
