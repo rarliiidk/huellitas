@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+
+    <style>
+        body {
+            background-image: url('img2/otrofondo.jpg'); /* Ruta de la imagen */
+            background-size: cover; /* Para cubrir todo el fondo */
+            background-position: center; /* Para centrar la imagen */
+            background-repeat: no-repeat; /* Para evitar que se repita la imagen */
+            /* Otros estilos opcionales para el cuerpo de la página */
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <link rel="stylesheet" href="estilos/registrou.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="logo-blanco">
+        <a href="inicio.html">
+        <img src="img2/logoblanco.png" id="logo-blanco">
+        </a>
+    </div>
+
+    <div class="wrapper">
+        <form action="">
+            <h1>Registrarse</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="Nombre"
+                required>
+                <i class='bx bxs-cat'></i>
+
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="Correo"
+                required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="password" placeholder="Contraseña"
+                required>
+                <i class='bx bxs-lock' ></i>
+            </div>
+
+            <div class="inputbox">
+                <input type="number" placeholder="Contacto"
+                required>
+                <i class='bx bxs-phone'></i>
+            </div>
+           
+
+            <button type="submit" class="boton">Siguiente</button>
+            
+            <div class="iniciar">
+                <p>¿Ya tienes una cuenta? <a href="iniciarsesión.html">Inicia sesión</a></p>
+            </div>
+        </form>
+    </div>
+</body>
