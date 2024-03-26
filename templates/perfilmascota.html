@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mascota</title>
-    <link rel="stylesheet" href="estilos/perfilmascota.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/perfilmascota.css') }}">
 </head>
 <body>
     <div class="presentación">
@@ -22,7 +22,7 @@
                     porque él tiene Pitbull es su perrita muy amigable y juguetona.</p>
             </div>
             <div class="adopte-btn">
-                <a href="ficha.html">Realizar Solicitud</a>
+                <a href="/ficha">Realizar Solicitud</a>
             </div>
         </div>
     </div>

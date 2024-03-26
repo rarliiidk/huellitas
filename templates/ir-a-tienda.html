@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilos/tienda.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tienda.css') }}">
     <script src="tienda.js" async></script>
     <title>Tienda Huellitas</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="inicio.html"><i class="fa-solid fa-house"></i>Inicio</a>
-            <a href="info.html"><i class="fa-solid fa-pencil"></i>Información</a>
-            <a href="ver-mascotas.html"><i class="fa-solid fa-cat"></i>Mascotas</a> 
-            <a href="ir-a-tienda.html"><i class="fa-solid fa-shop"></i>Tienda</a>
-            <a href="contacto.html"><i class="fa-solid fa-phone"></i>Contacto</a>
+            <a href="/"><i class="fa-solid fa-house"></i>Inicio</a>
+            <a href="/info"><i class="fa-solid fa-pencil"></i>Información</a>
+            <a href="/ver-mascotas"><i class="fa-solid fa-cat"></i>Mascotas</a> 
+            <a href="/ir-a-tienda"><i class="fa-solid fa-shop"></i>Tienda</a>
+            <a href="/contacto"><i class="fa-solid fa-phone"></i>Contacto</a>
         </nav>
 
         <section class="textos-header">
@@ -29,55 +29,55 @@
         <div class="contenedor-items">
             <div class="item">
                 <span class="titulo-item">Perrito 1</span>
-                <img src="img2/6.jpeg" alt="" class="img-item">
+                <img src="static/img/6.jpg" alt="" class="img-item">
                 <span class="precio-item">$15.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 2</span>
-                <img src="img2/5.jpeg" alt="" class="img-item">
+                <img src="static/img/5.jpeg" alt="" class="img-item">
                 <span class="precio-item">$25.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 3</span>
-                <img src="img2/4.jpeg"alt="" class="img-item">
+                <img src="static/img/4.jpeg"alt="" class="img-item">
                 <span class="precio-item">$35.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 4</span>
-                <img src="img2/3.jpeg" alt="" class="img-item">
+                <img src="static/img/3.jpeg" alt="" class="img-item">
                 <span class="precio-item">$18.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 5</span>
-                <img src="img2/2.jpeg" alt="" class="img-item">
+                <img src="static/img/2.jpeg" alt="" class="img-item">
                 <span class="precio-item">$32.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 6</span>
-                <img src="img2/1.jpeg" alt="" class="img-item">
+                <img src="static/img/1.jpeg" alt="" class="img-item">
                 <span class="precio-item">$18.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 7</span>
-                <img src="img2/6.jpeg"alt="" class="img-item">
+                <img src="static/img/6.jpg"alt="" class="img-item">
                 <span class="precio-item">$54.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 8</span>
-                <img src="img2/5.jpeg" alt="" class="img-item">
+                <img src="static/img/5.jpeg" alt="" class="img-item">
                 <span class="precio-item">$32.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
                 <span class="titulo-item">Perrito 9</span>
-                <img src="img2/4.jpeg" alt="" class="img-item">
+                <img src="static/img/4.jpeg" alt="" class="img-item">
                 <span class="precio-item">$42.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
